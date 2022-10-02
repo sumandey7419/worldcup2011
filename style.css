@@ -1,0 +1,80 @@
+/* Type your code here */
+
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top:90px;
+	margin-left: 20px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
+body{
+    background: url(assets/background-image1.png) no-repeat;
+    background-size: cover;
+   
+}
+.tab{
+	margin-left: 20px;
+	background: url(assets/flag.jpg) no-repeat;
+	background-size: 100%;
+
+		border:0;
+		font-size: 16px;
+		border-collapse: collapse;
+		width: 53%;
+		height: 380px;	
+		padding-left: 100px;
+		padding-right: 50px;
+		
+	}
+.logo
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 1300px;
+}
+h1
+{
+	font-size: 35px;
+	padding: 0px;
+	
+	
+}
+h4{
+	font-size: 20px;
+	margin-top: 0;
+	color: rgb(71, 19, 19);
+	font-size: small;
+}
+
+tr
+{
+	border-bottom: 1px solid grey;	
+	text-align:left;
+	
+}
+tr>th{
+	
+	padding: 8px;
+}
+tr>td{
+	padding: 8px;
+}
+#c1{
+	background-color: orangered;
+	color:white;
+	
+}
+#text{
+	color: grey;
+}
+a{
+	text-decoration: none;
+	color:rgb(30, 66, 196);
+}
